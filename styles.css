@@ -6,86 +6,47 @@ body {
 
 
 
-/* Style de base pour l'en-tête */
-header {
-    background-color: hsl(0, 23%, 97%); /* Couleur de fond de l'en-tête */
-    color: rgba(255, 255, 255, 0.671); /* Couleur du texte de l'en-tête */
-    display: flex; /* Utilisation de Flexbox pour aligner les éléments horizontalement */
-    justify-content: space-between; /* Espacement égal entre les éléments */
-    align-items: center; /* Centre verticalement les éléments */
-    padding: 10px 20px; /* Marge interne pour l'en-tête */
+.header .container{
+    display: flex;
+    padding-left: 80px;
+height: 60px;
+position: fixed;
+background-color: #ffffff;
+justify-content: space-around;
+width: 100%;}
+ul li a {
+    text-align: right;
+    justify-content: space-between;
 
-    text-align: center; /* Centre le contenu horizontalement */
-    padding-left: 200px; /* Ajoute de l'espace autour de l'en-tête */
-   
-    margin: 10px;
-    
 }
-
-/* Style du logo */
-.logo img {
-    max-width: 100%; /* Assurez-vous que le logo ne dépasse pas la largeur de son conteneur */
-    height: auto; /* Maintient le rapport hauteur-largeur du logo */
-    max-width: 100px; /* Ajustez la largeur de l'icône du logo selon vos besoins */
-    height: auto; /* Maintient le rapport hauteur-largeur de l'icône */
-}
-
-.logo {
-    font-size: 30px;
-    font-weight: bold;
-}
-.logo .spam1{
-    color: #00cc99;
+.container{
+  padding-top: 10px;
   
 }
-.logo .spam2{
-    color: #999999;
-    
-}
-/* Style de la liste de navigation */
+.header .container .nav a {
+   margin:10px;
+   text-decoration: none;
+  
+} 
 nav ul {
-    list-style-type: none; /* Supprimer les puces de liste */
-    padding: 0; /* Supprimer les marges internes de la liste */
-
-    font-size: 20px; /* Ajustez la taille de la police du titre selon vos besoins */
-    margin-top: 10px; /* Marge supérieure pour espacer le titre de l'icône */
+    list-style-type: none;
     
-}
-
-/* Style des éléments de la liste de navigation */
-nav ul li {
-    display: inline; /* Afficher les éléments en ligne côte à côte */
-    margin-right: 20px; /* Marge à droite pour espacer les éléments */
-}
-
-/* Style des liens de la liste de navigation */
-nav ul li a {
-    text-decoration: none; /* Supprimer la soulignement des liens */
-    color: white; /* Couleur du texte des liens */
-    font-weight: bold; /* Gras pour les liens */
+  }
+  nav li {
+    display: inline;
+    margin-right: 50px; /* Espacement entre les éléments de liste (ajustez selon vos besoins) */
     
-    
+  }
+
+.spam4{
+    color:grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-nav ul li a .spam3{
-    color: #00cc99;
+.spam3{
+    color:#00cc99;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
-nav ul li a .spam4{
-    color: #999999;
-}
-/* Style des liens au survol */
-nav ul li a:hover {
-    text-decoration: underline; /* Soulignement au survol */
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -96,66 +57,124 @@ nav ul li a:hover {
 .premiere-section {
     text-align: center; /* Centre le contenu horizontalement */
     padding: 20px; /* Ajoute de l'espace autour du contenu */
-    background-color: blue;
+    background-color: blanch;
+    
 }
 
 /* Style de l'icône */
 .icone img {
+    margin-top: 150px;
     max-width: 100px; /* Ajustez la largeur de l'icône selon vos besoins */
     height: auto; /* Maintient le rapport hauteur-largeur de l'icône */
 }
 
 /* Style du titre h1 */
-.titre-h1 {
-    font-size: 24px; /* Ajustez la taille de la police selon vos besoins */
+.premiere-section .titre-h1 {
+    font-size: 40px; /* Ajustez la taille de la police selon vos besoins */
     margin-top: 20px; /* Marge supérieure pour espacer le titre du contenu précédent */
+    color:#00cc99;
+
 }
 
 /* Style des paragraphes */
-.paragraphes {
+.premiere-section .paragraphes {
     display: flex; /* Utilisation de Flexbox pour aligner les paragraphes horizontalement */
-    justify-content: center; /* Centre les éléments horizontalement */
+
     margin-top: 20px; /* Marge supérieure pour espacer les paragraphes du titre */
+    margin-left: 130px;
+    font-size: 20px;
 }
 
-.paragraphes p {
-    margin: 0 10px; /* Ajoute de l'espace horizontal entre les paragraphes */
-}
+
 
 /* Style des trois divs */
 .trois-divs {
     display: flex; /* Utilisation de Flexbox pour aligner les divs horizontalement */
     justify-content: center; /* Centre les divs horizontalement */
     margin-top: 20px; /* Marge supérieure pour espacer les divs des paragraphes */
+  
 }
 
-.trois-divs .div {
-    width: 200px; /* Ajustez la largeur des divs selon vos besoins */
+.trois-divs .div1 {
+    background-color:#00cccc;
+    width: 300px; /* Ajustez la largeur des divs selon vos besoins */
     padding: 10px; /* Ajoute de l'espace intérieur aux divs */
-    text-align: center; /* Centre le contenu des divs horizontalement */
+     /* Centre le contenu des divs horizontalement */
     margin: 0 10px; /* Ajoute de l'espace horizontal entre les divs */
+    border-radius: 10px;
+    height: 350px;
+    padding-top: 40px;
+    text-align: left;
+    font-size: 30px;
+    color:blanchedalmond;
 }
 
+
+.trois-divs .div2 {
+    background-color: #6699cc;
+    width: 300px; /* Ajustez la largeur des divs selon vos besoins */
+    padding: 10px; /* Ajoute de l'espace intérieur aux divs */
+     /* Centre le contenu des divs horizontalement */
+    margin: 0 10px; /* Ajoute de l'espace horizontal entre les divs */
+    border-radius: 10px;
+    height: 350px;
+    padding-top: 40px;
+    text-align: left;
+    font-size: 30px;
+    color:blanchedalmond;
+}
+
+.trois-divs .div3 {
+    background-color: #333333;
+    width: 300px; /* Ajustez la largeur des divs selon vos besoins */
+    padding: 10px; /* Ajoute de l'espace intérieur aux divs */
+     /* Centre le contenu des divs horizontalement */
+    margin: 0 10px; /* Ajoute de l'espace horizontal entre les divs */
+    border-radius: 10px;
+    height: 350px;
+    padding-top: 40px;
+    text-align: left;
+    font-size: 30px;
+    color:blanchedalmond;
+}
 /* Style du titre en gras */
 .titre-bold {
-    font-weight: bold; /* Texte en gras */
+    font-size: 30px; /* Texte en gras */
 }
 
+
+.premiere-section .div-tableau {
+display: flex;
+align-items:center;
+margin-left: 150px;
+
+}
+.premiere-section .div-tableau p{
+    
+    color:#00cc99;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:inherit;
+    font-size: 30px;
+}
 /* Style du tableau */
 .tableau {
     margin-top: 20px; /* Marge supérieure pour espacer le tableau des divs */
     margin-left: auto; /* Centre le tableau horizontalement */
     margin-right: auto; /* Centre le tableau horizontalement */
     border-collapse: collapse; /* Fusionne les bordures des cellules */
-}
+  
+} 
 
 .tableau td {
-    border: 1px solid #ddd; /* Ajoute des bordures aux cellules du tableau */
+    border: none; /* Ajoute des bordures aux cellules du tableau */
     padding: 8px; /* Ajoute de l'espace intérieur aux cellules du tableau */
     text-align: center; /* Centre le contenu des cellules horizontalement */
 }
-
-
+.a1{
+    text-decoration: none;
+    font-size:20px;
+    color:grey;
+}
 
 
 
@@ -172,23 +191,37 @@ nav ul li a:hover {
 
 /* Style de la deuxième section */
 .deuxieme-section {
-    display: flex; /* Utilisation de Flexbox pour aligner les divs horizontalement */
+      /* Utilisation de Flexbox pour aligner les divs horizontalement */
     justify-content: space-around; /* Espacement égal entre les divs */
-    padding: 20px; /* Ajoute de l'espace autour du contenu */
-    background-color: aquamarine;
+    padding-left: 200px; /* Ajoute de l'espace autour du contenu */
+    padding-top: 50px;
+    padding-right: 50px;
+    background-color:grey; ;
 }
-
+.deuxieme-section .div img{
+    width: 300px;
+    height: 300px;
+}
 /* Style des divs */
 .div {
     text-align: center; /* Centre le contenu horizontalement */
     flex-basis: 30%; /* Ajustez la largeur des divs selon vos besoins */
 }
-
+.div11{ 
+    justify-content: space-between;
+    display: flex;
+}
+.div22{
+    display: flex;
+     justify-content: space-between;
+}
 /* Style du titre h1 */
 .titre-h1 {
     font-size: 24px; /* Ajustez la taille de la police selon vos besoins */
     margin-top: 10px; /* Marge supérieure pour espacer le titre du paragraphe */
 }
+
+
 
 /* Style des paragraphes */
 .paragraphe {
@@ -196,9 +229,13 @@ nav ul li a:hover {
 }
 
 /* Style des icônes */
-.icone img {
-    max-width: 100px; /* Ajustez la largeur des icônes selon vos besoins */
-    height: auto; /* Maintient le rapport hauteur-largeur de l'icône */
+.div11 img {
+    width: 300px; /* Ajustez la largeur des icônes selon vos besoins */
+    height: 300px; /* Maintient le rapport hauteur-largeur de l'icône */
+}
+ .div22 img {
+    width: 300px; /* Ajustez la largeur des icônes selon vos besoins */
+    height: 300px; /* Maintient le rapport hauteur-largeur de l'icône */
 }
 
 

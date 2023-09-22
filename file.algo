@@ -1,0 +1,10 @@
+ALGORITHM somme
+VAR
+    a,b:INTEGER;
+    some:FLOAT;
+BEGIN
+  read(a);
+  read(b);
+  some:=a+b;
+  whrite
+END
