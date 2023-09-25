@@ -180,101 +180,124 @@ margin-left: 150px;
 
 
 
+/* Style de la deuscieme section */
 
-
-
-
-
-
-
-
-
-/* Style de la deuxième section */
-.deuxieme-section {
-      /* Utilisation de Flexbox pour aligner les divs horizontalement */
-    justify-content: space-around; /* Espacement égal entre les divs */
-    padding-left: 200px; /* Ajoute de l'espace autour du contenu */
+.deuscieme-section .conteneur {
+    display: flex;
+    background-color: #ccffff;
     padding-top: 50px;
-    padding-right: 50px;
-    background-color:grey; ;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-around;
+    padding-bottom: 0%;
+   
 }
-.deuxieme-section .div img{
-    width: 300px;
-    height: 300px;
+
+.deuscieme-section .conteneur .div-2 .div-2-1{
+background-color: #ffffff;
+height: 230px;
+    width: 200px;
+    margin: 50px;
+    display: grid;
+    place-items: center;
+ 
 }
-/* Style des divs */
-.div {
-    text-align: center; /* Centre le contenu horizontalement */
-    flex-basis: 30%; /* Ajustez la largeur des divs selon vos besoins */
+
+.deuscieme-section .conteneur .div-2 .div-2-2{
+    background-color: #ffffff;
+    height: 230px;
+    width: 200px;
+    margin: 50px;
+    display: grid;
+  place-items: center;
+  
 }
-.div11{ 
+
+.deuscieme-section .conteneur .div-3 .div-3-1{
+
+    background-color: #ffffff;
+    height: 230px;
+    width: 200px;
+    margin: 30px;
+    display: grid;
+  place-items: center;
+}
+
+.deuscieme-section .conteneur .div-3 .div-3-2{
+    background-color: #ffffff;
+    height: 230px;
+    width: 200px;
+margin: 30px;
+display: grid;
+  place-items: center;
+
+}
+.deuscieme-section .conteneur .div-1{
+    
+  align-self: flex-end;
+    
+ }
+    
+
+/* Style de la troiscieme section */
+
+    .troisième-section .partie1{
+        text-align: center;
+        padding: 50px;
+    }
+.troisième-section .partie2{
+    display: flex;
     justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+
+} 
+
+
+.troisième-section .partie3{
     display: flex;
-}
-.div22{
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+} 
+.troisième-section .partie4{
     display: flex;
-     justify-content: space-between;
-}
-/* Style du titre h1 */
-.titre-h1 {
-    font-size: 24px; /* Ajustez la taille de la police selon vos besoins */
-    margin-top: 10px; /* Marge supérieure pour espacer le titre du paragraphe */
-}
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+} 
 
+/* Style de la quatieme section */
 
-
-/* Style des paragraphes */
-.paragraphe {
-    margin-top: 10px; /* Marge supérieure pour espacer le paragraphe du titre */
+.quatriem-section .partie1 {
+    padding-top: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    padding-bottom:150px ;
 }
-
-/* Style des icônes */
-.div11 img {
-    width: 300px; /* Ajustez la largeur des icônes selon vos besoins */
-    height: 300px; /* Maintient le rapport hauteur-largeur de l'icône */
-}
- .div22 img {
-    width: 300px; /* Ajustez la largeur des icônes selon vos besoins */
-    height: 300px; /* Maintient le rapport hauteur-largeur de l'icône */
+.quatriem-section .partie2 {
+    
+    background-color: #ffffff;
+    display: flex;
+    padding-left: 150px;
+     
 }
 
-
-
-
-
-
-
-
-
-
-/* Style de la troisième section */
-.troisieme-section {
-    text-align: center; /* Centre le contenu horizontalement */
-    padding: 20px; /* Ajoute de l'espace autour du contenu */
+.quatriem-section .partie2 ul {
+    list-style-type: none;   
 }
 
-/* Style du conteneur */
-.conteneur {
-    text-align: center; /* Centre le contenu horizontalement */
+.quatriem-section .partie2 ul a{
+text-align: right;
+
 }
 
-/* Style du titre h1 */
-.titre-h1 {
-    font-size: 24px; /* Ajustez la taille de la police selon vos besoins */
-    margin-top: 20px; /* Marge supérieure pour espacer le titre du paragraphe */
-}
+.quatriem-section .partie2 ul li{
+    text-align: right;
+    display: inline;
+    }
 
-/* Style du paragraphe */
-.paragraphe {
-    font-size: 16px; /* Ajustez la taille de la police selon vos besoins */
-    margin-top: 10px; /* Marge supérieure pour espacer le paragraphe du titre */
-}
-
-
-
-
-
-
-
-
-
+    .quatriem-section .partie3 {
+        padding-left: 150px;
+    }
